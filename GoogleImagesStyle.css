@@ -44,10 +44,25 @@ body {
 
 #GoogleIcon{
 
-    width:272px;
-    height:92px;
-    align-items: center;
     
+    align-items: left;
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px;
+    
+}
+
+#Google_Logo_Container {
+    height: 31%;
+}
+
+.ImagesText{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: 215px;
+    top: -20px;
+    white-space: nowrap;
 }
 
 
