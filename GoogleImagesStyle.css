@@ -1,0 +1,99 @@
+html,
+body {
+    height: 100%;
+    min-width: 1140px;
+}
+
+.NavLink{
+    padding-left: 15px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+    text-decoration:none;
+}
+
+.NavLink:hover{
+    text-decoration:underline;
+    color: rgba(0,0,0,0.87);
+}
+
+#contentOfNavigation{
+   
+    text-align: right;
+    padding:6px;
+}
+
+#ImagesSearch{
+    padding-right: 15px;
+}
+
+#MenuIcon{
+
+    padding:8px;
+    width:32px;
+    height:32px;
+}
+
+#UserIcon{
+
+    width: 48px;
+    height:48px;
+    padding:8px;
+}
+
+#GoogleIcon{
+
+    width:272px;
+    height:92px;
+    align-items: center;
+    
+}
+
+
+
+.containerCountry{
+    color: rgba(0,0,0,.54);
+    font-size:15px;
+    text-decoration:none;
+    vertical-align: middle;
+    padding-right: 27px;
+}
+
+#Country{
+
+    border-bottom: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    vertical-align: middle;
+}
+
+.containerInformation{
+    color: rgba(0,0,0,.54);
+    text-decoration:none;
+    font-size:15px;
+    padding-right: 27px;
+    vertical-align: middle;
+   
+}
+
+.containerInformationRight{
+  
+    float: right;
+
+}
+
+#FooterMenu{
+    background-color: #f8f9fa;
+    display: inline-block;
+}
+
+.containerInformation:hover{
+    color: rgba(0,0,0,.54);
+    text-decoration:underline;
+   
+}
+
+.containerCountry:hover{
+    color: rgba(0,0,0,.54);
+ 
+}
