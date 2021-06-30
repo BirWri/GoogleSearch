@@ -1,0 +1,173 @@
+html,
+body {
+    height: 100%;
+}
+
+.NavLink{
+    padding-left: 15px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+    text-decoration:none;
+}
+
+.NavLink:hover{
+    text-decoration:underline;
+    color: rgba(0,0,0,0.87);
+}
+
+#contentOfNavigation{
+   
+    text-align: right;
+    padding:6px;
+}
+
+#ImagesSearch{
+    padding-right: 15px;
+}
+
+#MenuIcon{
+
+    padding:8px;
+    width:32px;
+    height:32px;
+}
+
+#UserIcon{
+
+    width: 48px;
+    height:48px;
+    padding:8px;
+}
+
+#GoogleIcon{
+
+    width:272px;
+    height:92px;
+    align-items: center;
+    
+}
+
+#Google_Logo_Container {
+    height: 31%;
+}
+
+
+#SearchBar_Container{
+
+    padding:20px;
+}
+
+
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.searchbar{
+
+    height:45px;
+    border:none;
+    width:475px;
+    font-size:16px;
+    outline: none;
+    margin-left: 25px;
+}
+
+.searchicon{
+    height:25px;
+    position:relative;
+    left:15px;
+    padding-bottom: 5px;
+}
+
+.voice{
+    height:25px;
+    position:relative;
+    left:10px;
+    padding-bottom: 5px;
+  }
+
+.bar:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-radius: 24px;
+}
+
+.button{
+
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+
+.button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
+
+.LangLink{
+    padding-left: 3px;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-decoration:none;
+    color: #1a0dab;
+}
+
+.LangText{
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+
+.containerCountry{
+    color: rgba(0,0,0,.54);
+    font-size:15px;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+#Country{
+
+    border-bottom: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    vertical-align: middle;
+}
+
+.containerInformation{
+    color: rgba(0,0,0,.54);
+    text-decoration:none;
+    font-size:15px;
+
+   
+}
+
+#FooterMenu{
+    background-color: #f8f9fa;
+}
+
+.containerInformation:hover{
+    color: rgba(0,0,0,.54);
+    text-decoration:underline;
+   
+}
+
+.containerCountry:hover{
+    color: rgba(0,0,0,.54);
+ 
+}
