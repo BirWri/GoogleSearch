@@ -65,6 +65,69 @@ body {
     white-space: nowrap;
 }
 
+#SearchBar_Container{
+
+    padding:20px;
+}
+
+
+.bar{
+    margin:0 auto;
+    width:530px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    height:44px;
+}
+
+.searchbar{
+
+    height:34px;
+    border:none;
+    width:320px;
+    font-size:16px;
+    outline: none;
+   
+}
+
+
+.MagGlass{
+    Height:44px;
+    width:33px;
+    
+    
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.searchicon{
+    height:20px;
+    height:20px;
+    opacity: 0.5;
+}
+
+.searchbutton{
+    height:23px;
+    height:23px;
+}
+
+.voice{
+    height:21px;
+  }
+
+.camera{
+    height:25px;
+}
+
+.bar:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-radius: 24px;
+}
+
+
 
 
 .containerCountry{
@@ -85,9 +148,10 @@ body {
 .containerInformation{
     color: rgba(0,0,0,.54);
     text-decoration:none;
-    font-size:15px;
+    font-size:14px;
     padding-right: 27px;
     vertical-align: middle;
+    font-family: arial,sans-serif;
    
 }
 
@@ -100,6 +164,7 @@ body {
 #FooterMenu{
     background-color: #f8f9fa;
     display: inline-block;
+    min-width: 1140px;
 }
 
 .containerInformation:hover{
@@ -112,3 +177,6 @@ body {
     color: rgba(0,0,0,.54);
  
 }
+
+
+
