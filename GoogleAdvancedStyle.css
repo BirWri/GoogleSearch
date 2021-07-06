@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+    max-width:1140px;
+}
+
+
+#contentOfNavigation{
+   
+    text-align: right;
+    padding:6px;
+}
+
+#ContentOfLeftNavigation{
+    
+    padding:6px;
+    
+}
+
+#GoogleLogo{
+    height: 24px; 
+    width: 74px;
+    margin-left: 12px;
+}
+
+
+#MenuIcon{
+
+    padding:8px;
+    width:32px;
+    height:32px;
+}
+
+#UserIcon{
+
+    width: 48px;
+    height:48px;
+    padding:8px;
+}
+
+#Heading{
+    color: #d93025;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:45px;
+    margin-right:35px;
+}
+
+#TextAreaPadding{
+    margin-top:40px;
+    margin-bottom:25px;
+    margin-left:45px;
+    margin-right:35px;
+    padding-bottom: 25px;
+}
+
+.MainFont{
+    font-size: 16px;
+    font-family: arial,sans-serif;
+}
+
+.SmallFont{
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+.VerySmall{
+    font-size: 11px;
+    font-family: arial,sans-serif;
+    color: #555;
+}
+
+.SearchBar{
+    height: 42px;
+}
+
+.inputBox{
+    width:572px;
+    height:29px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.SmallInput{
+    width:261px;
+    height:29px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.containerCountry{
+    color: rgba(0,0,0,.54);
+    font-size:15px;
+    text-decoration:none;
+    vertical-align: middle;
+    padding-right: 27px;
+}
+
+#Country{
+
+    border-bottom: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    vertical-align: middle;
+}
+
+.containerInformation{
+    color: rgba(0,0,0,.54);
+    text-decoration:none;
+    font-size:14px;
+    padding-right: 27px;
+    vertical-align: middle;
+    font-family: arial,sans-serif;
+   
+}
+
+.containerInformationRight{
+  
+    float: right;
+
+}
+
+#FooterMenu{
+    background-color: #f8f9fa;
+    display: inline-block;
+    min-width: 1140px;
+}
+
+.containerInformation:hover{
+    color: rgba(0,0,0,.54);
+    text-decoration:underline;
+   
+}
+
+.containerCountry:hover{
+    color: rgba(0,0,0,.54);
+ 
+}

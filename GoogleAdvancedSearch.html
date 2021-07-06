@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <!-- My own file form the tutorial-->
+       
+        <link rel="stylesheet" href="GoogleAdvancedStyle.css">
+        <!-- Bootstrap CSS -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+        <title>Google</title>
+
+    </head>
+
+    <body>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous">
+        </script>
+
+        <!-- Navigation bar -->
+        <div class="container-fluid p-0">
+            <div class="d-flex flex-row justify-content-between align-items-center">
+
+                <div class='col' id='ContentOfLeftNavigation'>
+                    <span>
+                        <img id="GoogleLogo"  src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg">
+                    </span>
+                </div>
+        
+                <div class='col' id="contentOfNavigation">
+                    <img id="MenuIcon" src="dots.png" class="NavLink" alt="Menu button">
+                    <img id="UserIcon"  src="unnamed.png" class="NavLink rounded-circle" alt="User Icon">
+                </div>
+
+            </div>
+        </div>
+
+        <!--Heading-->
+        <div class="cointainer-fluid" id="Heading">
+            <label title="html">Advanced Search</label>
+        </div>
+
+        <!-- Questionare body-->
+        <div class="cointainer-fluid p-0 m-0 border-top" >
+
+            <div class="cointainer-fluid MainContentArea" id="TextAreaPadding">
+
+                <!-- First section-->
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="MainFont">Find pages with...</span>
+                    </div>
+
+                    <div class="col-6">
+                        
+                    </div>
+
+                    <div class="col SmallFont p-0">
+                        <span>To do this in the search box.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+
+                    <div class="col-2">
+                        <span class="SmallFont">all these words:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control inputBox">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">
+                        <span>Type the important words: tri-colour rat terrier</span>
+                    </div>
+                </div>
+                
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">this exact word or phrase:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control inputBox">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">
+                        <span>Put exact words in quotes: "rat terrier"</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">any of these words:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control inputBox">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">
+                        <span>Type OR between all the words you want: miniature OR standard</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">none of these words:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control inputBox">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">
+                        <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">numbers ranging from:</span>
+                    </div>
+
+                    <div class="col-3">
+                        <input class="form-control SmallInput">
+                    </div>
+                    <div class="col-3">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">
+                        <span>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Second section-->
+                <div class="row SearchBar" style="margin-bottom:15px;">
+                    <div class="col-2">
+                        <span class="MainFont">Then narrow your results by...</span>
+                    </div>
+
+                    <div class="col-6">
+                        
+                    </div>
+
+                    <div class="col p-0">
+                       
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">language:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Find pages in the language that you select.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">region:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Find pages published in a particular region.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">last update:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Find pages updated within the time that you specify.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">site or domain:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">terms appearing:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Search for terms in the whole page, page title or web address, or links to the page you're looking for.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">SafeSearch:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Tell SafeSearch whether to filter sexually explicit content.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">file type:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Find pages in the format that you prefer.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        <span class="SmallFont">usage rights:</span>
+                    </div>
+
+                    <div class="col-6">
+                        <input class="form-control SmallInput">
+                    </div>
+
+                    <div class="col VerySmall p-0 ms-2">    
+                        <span>Find pages that you are free to use yourself.</span>
+                    </div>
+                </div>
+
+                <div class="row SearchBar">
+                    <div class="col-2">
+                        
+                    </div>
+
+                    <div class="col-6" style="text-align: right;">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
+
+                    <div class="col  p-0 ms-2">    
+                       
+                    </div>
+                </div>
+
+                <hr>
+
+            <div>
+
+            <!-- Information section-->
+
+            
+
+        </div>
+
+        <!-- Footer-->
+        <div class="container-fluid p-0 m-0" id="FooterMenu">
+
+            <!-- Country -->
+            <div id="Country" class="container-fluid ps-4 p-2 containerCountry border-top">
+                <span>Denmark</span>
+            
+            </div> 
+        
+             <!-- Other options-->
+         
+          
+                    <div class="container-fluid ps-4 p-2" >
+               
+                        <span >
+                            <a href="url" class="containerInformation">Help</a>
+                            <a href="url" class="containerInformation" >Privacy</a>
+                            <a href="url" class="containerInformation ">Terms</a>
+                            
+                        </span>
+
+                    </div>
+  
+        </div>
+
+    </body>
+
+</html>
